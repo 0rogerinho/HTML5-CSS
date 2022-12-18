@@ -1,0 +1,41 @@
+@charset "UTF-8";       
+/** cascata do body */
+body {
+            font: 1em arial, helvetica , sans-serif;
+            background-color: peachpuff;
+        }
+ /**cascata do header */
+        header {
+            width: auto;
+            background-color: snow;
+            box-shadow: 3px 2px 4px black;
+            padding: 0px 0px 2px 8px;
+        }
+/** Cascata do nav */
+        nav {
+            text-align: center;
+            background-color: rgba(215, 215, 5, 0.897);
+            width: auto;
+            margin: 5px;
+            border: 0px 0px 0px 0px;
+        }
+/**Cascata do main */
+main {
+    width: auto;
+    background-color: snow;
+    box-shadow: 3px 2px 5px;
+}
+/** Cascata do Section */
+section {
+    background-color: yellow;
+    width: auto;
+    box-shadow: 4px 2px 5px rgb(0, 0, 0);
+}
+.article01 {
+    background-color: turquoise;
+    width: 800px;
+}
+.article02 {
+    background-color: turquoise;
+    width: 800px;
+}

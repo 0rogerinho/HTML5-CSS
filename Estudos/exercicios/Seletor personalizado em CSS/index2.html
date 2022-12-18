@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes e peseudo-elementos</title>
+    <style>
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+        a:visited{
+            color:darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+
+        .especial{
+            color: white;
+            background-color: black;
+        }
+        .especial::before {
+            content: "»";
+            font-weight: lighter;
+        }
+        .especial::after{
+            content: "«";
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+
+    <p>Para aprender HTML5 e CSS, acesse o <a href="https://github.com/" target="_blank" rel="external">GitHub do Guanabara</a></p>
+
+    <p>Se quiser conhecer mais sobre os padrões, visiste o site do <a href="https://www.w3c.br/" target="_blank" rel="external"> Escritório do W3C no Brasil</a></p>
+
+    <p >Para ouvir musicas em quanto estuda progamação, acesse o canal <a href=https://www.youtube.com/watch?v=_tV5LEBDs7w" class="especial" >Lofi girl </a></p>
+
+
+    
+</body>
+</html>
