@@ -1,0 +1,31 @@
+@charset "UTC-8";
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#q1 {
+    background-image: url(imagens/pattern001.png);
+    width: 600px;
+    height: 400px;
+}
+div#q2 {
+    width: 600px;
+    height: 400px;
+    background-color: lightgray;
+    background-repeat: repeat-x;
+    background-image: url(imagens/pattern002.png);
+}
+div#q3 {
+    width: 600px;
+    height: 400px;
+    background-color: lightgray;
+    background-image: url(imagens/pattern003.png);
+    background-repeat: repeat-y;
+}
+div#q4 {
+    width: 600px;
+    height: 400px;
+    background-color: lightgray;
+    background-image: url(imagens/pattern004.png);
+    background-repeat: no-repeat;
+}
