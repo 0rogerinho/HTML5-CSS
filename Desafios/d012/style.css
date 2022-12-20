@@ -1,0 +1,94 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    position: relative;
+    background-color: black;
+    width: auto;
+    min-height: 250px;
+    max-height: 300px;
+}
+header h1 {
+    position: absolute;
+    color: white;
+    width: 600px;
+    font-size: 4em;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+   transform: translate(-50%,-50%);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+header p {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);
+}
+main p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2em;
+    margin: 50px;
+    font-size: 2em;
+}
+#q1 {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    width: auto;
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+#q2 {
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin: 45px 0px 0px 50px;
+    border-radius: 20px;
+}
+#q3 {
+    margin: 25px 0px 0px 30px ;
+    color: white;
+    width: 400px;
+    height: 400px;
+font-size: 1.5em; 
+}
+#q4 {
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    background: cover;
+}
+#q5 {
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin: 50px 0px 0px 50px;
+    border-radius: 20px;
+}
+#q6 {
+    font-size: 1.5em;
+    width: 400px;
+    height: 400px;
+    color: white;
+    position: absolute;
+    margin: 35px 0px 0px 20px;
+
+}
+

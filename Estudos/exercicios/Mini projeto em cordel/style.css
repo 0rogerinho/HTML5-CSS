@@ -1,0 +1,13 @@
+@charset "UTC-8";
+body > h1 {
+    font-size: 10vw;
+}
+#q1 {
+    width: auto;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://blog.emania.com.br/wp-content/uploads/2021/07/O-que-e-a-Fotografia-Hoje-em-dia-Blog-eMania-5-1024x576.jpg);
+}
